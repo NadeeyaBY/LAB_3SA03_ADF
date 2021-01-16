@@ -1,9 +1,9 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated class="bg-purple">
-      <q-toolbar>
+      <q-toolbar class="bg-purple glossy text-lime" >
         <q-btn
-          flat
+          glossy
           dense
           round
           icon="menu"
