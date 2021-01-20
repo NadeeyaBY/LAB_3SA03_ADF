@@ -2,6 +2,22 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import routes from './routes'
+import {
+  Quasar,
+  QBtn,
+  QCard,
+  QCardSection,
+  QCardActions
+} from 'quasar'
+
+Vue.use(Quasar, {
+  components: {
+    QCard,
+    QCardSection,
+    QCardActions,
+    QBtn
+  }
+})
 
 Vue.use(VueRouter)
 

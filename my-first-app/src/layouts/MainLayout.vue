@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated class="bg-purple">
-      <q-toolbar class="bg-purple glossy text-lime" >
+      <q-toolbar  class="bg-purple glossy text-white" >
         <q-btn
           glossy
           dense
@@ -15,7 +15,6 @@
           My-First-App
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
         <q-btn
           flat
           dense
